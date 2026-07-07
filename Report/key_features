@@ -43,7 +43,7 @@ Business Finding:
 
 Encouraging repeat purchases can significantly increase overall sales.
 
-👥 Customer Segmentation
+Customer Segmentation
 
 Based on the analysis, customers can be divided into the following groups.
 
@@ -103,7 +103,8 @@ Win-back campaigns
 Reminder emails
 Special reactivation discounts
 Personalized recommendations
-📈 Business Recommendations
+
+ Business Recommendations
 Recommendation 1
 
 Focus future marketing campaigns on high-income and high-spending customers, as they have the highest likelihood of responding.
@@ -128,6 +129,59 @@ Recommendation 6
 
 Use customer segmentation based on Income, Total Spend, Purchase Frequency, and Recency for more effective marketing.
 
-🏁 Final Conclusion
+
+Key Performance Indicators (KPIs)
+
+To provide a quick summary of customer behavior and campaign performance, the following Key Performance Indicators (KPIs) were calculated and displayed in the Streamlit dashboard.
+
+1. Total Customers 
+
+This KPI represents the total number of customers included in the analysis. It provides an overview of the dataset size and updates dynamically when filters are applied.
+
+Purpose:
+
+Understand the total customer base.
+Monitor the number of customers after applying dashboard filters.
+2. Average Income 
+
+This KPI calculates the average annual income of all customers.
+
+Purpose:
+
+Measure the overall purchasing capacity of customers.
+Help identify whether the business primarily serves low-income, middle-income, or high-income customer segments.
+3. Average Total Spend 
+
+This KPI represents the average amount spent by customers across all product categories.
+
+The Total Spend feature was created by combining spending on:
+
+Wines
+Fruits
+Meat Products
+Fish Products
+Sweet Products
+Gold Products
+
+Purpose:
+
+Understand customer spending behavior.
+Identify the average revenue generated per customer.
+4. Campaign Response Rate 
+
+This KPI measures the percentage of customers who accepted the marketing campaign.
+
+It is calculated using the Response variable, where:
+
+1 = Customer accepted the campaign
+0 = Customer did not accept the campaign
+
+Purpose:
+
+Evaluate the effectiveness of the marketing campaign.
+Measure customer engagement.
+Compare campaign performance across different customer segments.
+
+  Final Conclusion 
 
 The analysis shows that Income and Total Spending are the strongest indicators of customer response to marketing campaigns. Customers with higher income and spending are more likely to accept marketing offers, while age has only a limited impact. Segmenting customers based on income, spending behavior, purchase frequency, and recency can help the company design personalized campaigns, improve customer engagement, increase campaign effectiveness, and maximize overall revenue.
